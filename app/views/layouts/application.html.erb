@@ -11,7 +11,13 @@
   </head>
   <body>
     <div class="container text-center">
+      <ol class="breadcrumb">
+        <li><%= link_to 'Home', index_path %></li>
+        <li><a href="https://www.youtube.com/watch?v=HNTxr2NJHa0">YouTube</a></li>
+      </ol>
+
       <%= yield %>
     </div>
+
   </body>
 </html>
